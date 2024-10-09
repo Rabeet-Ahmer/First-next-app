@@ -1,0 +1,36 @@
+*{
+  background-color: white !important;
+  color: black;
+}
+
+    h1{
+        text-align: center;
+    }
+.services{
+    background-color: white;
+    color: black;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 500px;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;    
+}
+.card img{
+    height: 400px;
+    border-radius: 2rem;
+}
+.card-text h2{
+    margin: 1rem;
+}
+.card:hover{
+    opacity: 0.8;
+}
